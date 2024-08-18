@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gowtham's Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f5dc, #ffffff);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        header {
+            width: 100%;
+            padding: 20px 0;
+            background: #ffffff;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        header:hover {
+            background: #000;
+            color: #f5f5dc;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+            color: #666;
+        }
+        
+        section {
+            width: 90%;
+            max-width: 1200px;
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        section h2 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        
+        .service-box {
+            background: #ffffff;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            text-align: left;
+        }
+        
+        .service-box:hover {
+            transform: translateY(-10px);
+        }
+        
+        .service-box img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 10px;
+        }
+        
+        .service-box h3 {
+            margin-top: 0;
+            font-size: 1.5em;
+            color: #000;
+        }
+        
+        .service-box p {
+            color: #666;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background: #000;
+            color: #f5f5dc;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease;
+            font-size: 1em;
+            margin-top: 20px;
+        }
+        
+        button:hover {
+            background: #f5f5dc;
+            color: #000;
+            transform: scale(1.1);
+        }
+        
+        footer {
+            width: 100%;
+            padding: 20px 0;
+            background: #333;
+            color: #f5f5dc;
+            text-align: center;
+            margin-top: auto;
+        }
+        
+        .contact {
+            margin-top: 50px;
+            padding: 20px;
+            background: #f5f5dc;
+            text-align: left;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .contact h2 {
+            font-size: 2em;
+            color: #000;
+        }
+        
+        .contact p {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .contact a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .contact a:hover {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gowtham's Landing Page</h1>
+        <p>Designed with passion and precision by Gowtham</p>
+    </header>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Gowtham's Company, we're driven by a commitment to quality and innovation. We don’t just follow trends; we set them. Our team is dedicated to creating solutions that make a real difference in the lives of our clients. From technology consulting to custom software development, we offer a range of services designed to help you succeed in today's competitive landscape.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-box">
+                <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Service One">
+                <h3>Consulting Services</h3>
+                <p>We help businesses navigate the complexities of technology. Our consultants work closely with you to identify challenges and implement strategies that drive growth and efficiency.</p>
+            </div>
+            <div class="service-box">
+                <img src="https://images.pexels.com/photos/3182781/pexels-photo-3182781.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Service Two">
+                <h3>Development Solutions</h3>
+                <p>We specialize in custom software development that enhances your business operations. Our solutions are tailored to meet your unique needs, ensuring you stay ahead of the curve.</p>
+            </div>
+            <div class="service-box">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Service Three">
+                <h3>Technical Support</h3>
+                <p>Our technical support team is here to ensure your systems run smoothly. We provide 24/7 assistance, so you can focus on what matters most—your business.</p>
+            </div>
+        </div>
+        <button>Learn More</button>
+    </section>
+    
+    <section id="contact">
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>If you'd like to learn more about what we can do for you, or if you have any questions, feel free to reach out. We're here to help!</p>
+            <p>Email: <a href="mailto:gowtham@example.com">gowtham@example.com</a></p>
+            <p>Phone: <a href="tel:+91 987654321">+91 987654321</a></p>
+            <p>Address: chennai TamilNadu</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Gowtham. All rights reserved.</p>
+    </footer>
+</body>
+</html>
